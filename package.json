@@ -1,0 +1,56 @@
+{
+  "name": "sbitjs-ethjs-abi",
+  "version": "1.0.2",
+  "description": "Just the Ethereum encoding and decoding methods from the ethers-io-wallet.",
+  "main": "src/index.js",
+  "files": [
+    "dist",
+    "internals",
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "start": "npm test",
+    "test": "mocha ./src/tests/**/*.js -R spec --timeout 2000000"
+  },
+  "engines": {
+    "npm": ">=3",
+    "node": ">=6.5.0"
+  },
+  "dependencies": {
+    "bn.js": "4.11.6",
+    "buffer": "^5.0.8",
+    "js-sha3": "0.5.5",
+    "number-to-bn": "1.7.0"
+  },
+  "devDependencies": {
+    "bignumber.js": "3.0.1",
+    "chai": "3.5.0",
+    "cross-env": "1.0.7",
+    "crypto": "0.0.3",
+    "ethereumjs-util": "5.0.1",
+    "ethereumjs-vm": "1.4.0",
+    "ethers-wallet": "1.0.8",
+    "eventsource-polyfill": "0.9.6",
+    "json-loader": "0.5.4",
+    "mocha": "^6.2.0"
+  },
+  "keywords": [
+    "ethereum",
+    "encoding",
+    "decoding"
+  ],
+  "author": "Nick Dodson <thenickdodson@gmail.com>",
+  "contributors": [
+    {
+      "name": "Richard Moore",
+      "email": "me@ricmoo.com",
+      "url": "https://ethers.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ethjs/ethjs-abi"
+  },
+  "license": "MIT"
+}
